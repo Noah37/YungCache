@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YungCache_Example' do
+  pod 'YungCache', :path => '../'
+
+  target 'YungCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
