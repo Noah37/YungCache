@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YungCache/Classes/**/*'
   
+  s.swift_version = '5.2'
+  
   # s.resource_bundles = {
   #   'YungCache' => ['YungCache/Assets/*.png']
   # }
