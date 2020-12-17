@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func setAction(_ sender: Any) {
         let model = YungModel(age: 10, name: "Yung")
-        cache.setObj(model, forKey: "YungModel")
+        cache.setObjs([model], forKey: "YungModel")
     }
     
     @IBAction func getAction(_ sender: Any) {

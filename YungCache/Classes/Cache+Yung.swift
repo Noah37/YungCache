@@ -18,4 +18,9 @@ public extension Cache {
         let obj = NSKeyedArchiver.archivedData(withRootObject: obj)
         setObject(obj as! ObjectType, forKey: key)
     }
+    
+    func setObjs<T:NSCoding>(_ objs: [T], forKey key: NSString) {
+        let obj = NSKeyedArchiver.archivedData(withRootObject: objs)
+        setObject(obj as! ObjectType, forKey: key)
+    }
 }
