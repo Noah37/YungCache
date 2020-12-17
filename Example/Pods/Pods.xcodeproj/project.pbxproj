@@ -8,76 +8,80 @@
 
 /* Begin PBXBuildFile section */
 		062C26823958476322E903D0121EADFD /* Pods-YungCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D87CF9EA01B51FA799C299AB6CCA23BD /* Pods-YungCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		121D4E9CD7903C2A1CD78E598B4CA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		21620CAD4197B9EF15A4ED0F2166DE5A /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903A7C4A9C0EE659D117F92720FC514 /* Container.swift */; };
-		2E6CDD0FC88AA458640407F1AEBFC32A /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E88B6243310CAC7A4888050B7BF43 /* MemoryCache.swift */; };
+		14B747A48C887EC58D2D4A419C16A65C /* YungCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5074CFE0757BCD5988B0F8BA1E74B284 /* YungCache-dummy.m */; };
 		391CC475A56A5EB36599CBA58621887F /* Pods-YungCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148BD8396722FB300A430848A6E83659 /* Pods-YungCache_Tests-dummy.m */; };
 		501529CA335C461AE01F213A7435604E /* Pods-YungCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 368A7D880BEB0786C1D0D63E50512986 /* Pods-YungCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A3F131752BEEAE1EDD5EC7DC0255127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5E284651385238401968AE9D22352AFC /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873F3728A5D75840ABDF58EA79948A4 /* DiskCache.swift */; };
-		7673AEFF01271C29AB4AEFD975112A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9F1DB61A37B1239265759A5028CD9B23 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA907092990CA02538927EFE73B573E /* Protocol.swift */; };
-		AAB7F31362AD9E67F0E0FBB00DA443D4 /* YungCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94970426A680378991E47CFA6A140A44 /* YungCache-dummy.m */; };
-		B2515C16258A50A10008441E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2515C15258A50A10008441E /* Cache.swift */; };
+		5B95DDE04132271EECEE6361034A7C58 /* String+Yung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AA915807547F907C0F3901B1F289F /* String+Yung.swift */; };
+		64D46E9ABD5AF85DE98D7F1702EC4E0E /* Cache+Yung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90536EF8A030DBE22CF53A05B10802E1 /* Cache+Yung.swift */; };
+		6D9CB39371FBEA2D62B858A17A853B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87D1792982B331725A4AD3ABF6C0F1A5 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D23731D534FAF411E3A9F59EF552B0 /* DiskCache.swift */; };
+		8BD5AAD7DFA58D2BE032AE357EF85A4B /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CABD3FB904378CD52E652F87984EA6 /* MemoryCache.swift */; };
+		9B58E63AAFF77E465E11AE3CAD69F14D /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C430799FA465FE870CEF1DA98CD59 /* Protocol.swift */; };
+		B89F5C48535E59FCCC8CDB1384B84D6F /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5C8818CF937CD1455950F998360CD /* Container.swift */; };
+		BE97FE57CC7C4D2416AA1A915DCEB6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C50BEC5B282C3950F4C40524AA514D9C /* Pods-YungCache_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FD4D436D1EF9F0E49CA39435CF0ADD /* Pods-YungCache_Example-dummy.m */; };
-		F5B12D1622648EE8DA274FD689CDC8C1 /* YungCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DE56D45C2518B80620ADACE977ABAB /* YungCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D943F8ADA88CE2FCB23D70051E002347 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBDAE159A418FBCEC2DD124D44B82A5 /* Cache.swift */; };
+		EE8F71303296F93FA4F82EC499BB1C9D /* YungCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF982B0AA3D56EA55EF8BB9BEBD4785A /* YungCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94B37C569F644C77FA7B5DC737397EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ACA0F339EB58A8F56F90F56A04FAF739 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41E9E5EF50779BBD05A13FA66EB906A6;
-			remoteInfo = "Pods-YungCache_Example";
-		};
-		F3A0C589339F2C4BB5C6A932F6C2F0DF /* PBXContainerItemProxy */ = {
+		540AB543D4A28173E1E8CED5822238AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 017D518B939E924400FB0D2477F5CD89;
 			remoteInfo = YungCache;
 		};
+		BC7100EC5F4D56E3C9B4742616E3569B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E9E5EF50779BBD05A13FA66EB906A6;
+			remoteInfo = "Pods-YungCache_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013AD0A4CD4507F72BD5651AFA5EA7F7 /* YungCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungCache.debug.xcconfig; sourceTree = "<group>"; };
-		034C0437788D6969B5D0D5BE28CFB7EA /* Pods_YungCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YungCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034C0437788D6969B5D0D5BE28CFB7EA /* Pods_YungCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YungCache_Tests.framework; path = "Pods-YungCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7AA915807547F907C0F3901B1F289F /* String+Yung.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Yung.swift"; path = "YungCache/Classes/String+Yung.swift"; sourceTree = "<group>"; };
 		148BD8396722FB300A430848A6E83659 /* Pods-YungCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YungCache_Tests-dummy.m"; sourceTree = "<group>"; };
 		180BAA42293C90A2D91ABC189595663B /* Pods-YungCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YungCache_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1873F3728A5D75840ABDF58EA79948A4 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = YungCache/Classes/DiskCache.swift; sourceTree = "<group>"; };
-		268F2F37CEE3236C3127DB32F34618E8 /* YungCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YungCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268F2F37CEE3236C3127DB32F34618E8 /* YungCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YungCache.framework; path = YungCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E47A18F0EA8C9EE4FFE58ABF752A62 /* Pods-YungCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YungCache_Example.modulemap"; sourceTree = "<group>"; };
 		28D9377462CD7031FDED0E7EA7E306C9 /* Pods-YungCache_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungCache_Tests-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		368A7D880BEB0786C1D0D63E50512986 /* Pods-YungCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YungCache_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3CA9F168BD5649BA2398CC3711AEA607 /* Pods_YungCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YungCache_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA907092990CA02538927EFE73B573E /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = YungCache/Classes/Protocol.swift; sourceTree = "<group>"; };
-		41DE56D45C2518B80620ADACE977ABAB /* YungCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungCache-umbrella.h"; sourceTree = "<group>"; };
+		3CA9F168BD5649BA2398CC3711AEA607 /* Pods_YungCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YungCache_Example.framework; path = "Pods-YungCache_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		400C307128AF6725DEC8AA217B976A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4DA678D5FD4E018E9AD2C58ED12F73FE /* Pods-YungCache_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungCache_Example-Info.plist"; sourceTree = "<group>"; };
+		5074CFE0757BCD5988B0F8BA1E74B284 /* YungCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YungCache-dummy.m"; sourceTree = "<group>"; };
 		66E6164EE2A5B38A671C6ADDF23531E4 /* Pods-YungCache_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YungCache_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		76076DA74634BE5092511878192FDE46 /* YungCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungCache.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7470EF9E0F090672A758B086F3341A6A /* YungCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungCache.release.xcconfig; sourceTree = "<group>"; };
+		81DDA14F3D19EE59594ECFB4C76AC5A6 /* YungCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YungCache-Info.plist"; sourceTree = "<group>"; };
 		827E30EC7714E2E7F56B60C80A809367 /* Pods-YungCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86C63E9DA772E88A7A496A5327257811 /* Pods-YungCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EBBE636403F3EF89F9890F3A4A62D79 /* Pods-YungCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		94970426A680378991E47CFA6A140A44 /* YungCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YungCache-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90536EF8A030DBE22CF53A05B10802E1 /* Cache+Yung.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Cache+Yung.swift"; path = "YungCache/Classes/Cache+Yung.swift"; sourceTree = "<group>"; };
+		9A9A506B814D67E3B6D1B76946D34B2A /* YungCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungCache-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE07843839DC7C8B3F4CD405DD0D98B /* Pods-YungCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4FE08BCE99BEFA694548FE5FB226112 /* YungCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungCache.debug.xcconfig; sourceTree = "<group>"; };
 		A608BC2E4D4260F95D7533A3DF90300B /* Pods-YungCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YungCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA5A923DFB1F4596F88E4AB2A60FD2B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B2515C15258A50A10008441E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = YungCache/Classes/Cache.swift; sourceTree = "<group>"; };
 		B55F7DA13297CD747E84E0F676BBC61B /* Pods-YungCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YungCache_Tests.modulemap"; sourceTree = "<group>"; };
-		B67D52C2B3B844637454335C013AFA8E /* YungCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YungCache-Info.plist"; sourceTree = "<group>"; };
+		BC452302DA3EABAFCD8E3A72BEB2271B /* YungCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YungCache.modulemap; sourceTree = "<group>"; };
+		C1E5C8818CF937CD1455950F998360CD /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = YungCache/Classes/Container.swift; sourceTree = "<group>"; };
+		C67DE2E95D0B8F796C79161B91845C93 /* YungCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YungCache.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCBDAE159A418FBCEC2DD124D44B82A5 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = YungCache/Classes/Cache.swift; sourceTree = "<group>"; };
 		D87CF9EA01B51FA799C299AB6CCA23BD /* Pods-YungCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YungCache_Example-umbrella.h"; sourceTree = "<group>"; };
-		E0C00A1DFDB584F219563DF885C0A9BA /* YungCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YungCache.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF982B0AA3D56EA55EF8BB9BEBD4785A /* YungCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungCache-umbrella.h"; sourceTree = "<group>"; };
+		E1CABD3FB904378CD52E652F87984EA6 /* MemoryCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryCache.swift; path = YungCache/Classes/MemoryCache.swift; sourceTree = "<group>"; };
+		E30C430799FA465FE870CEF1DA98CD59 /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = YungCache/Classes/Protocol.swift; sourceTree = "<group>"; };
 		E5DC24F3EA836BCE0F80CA8490215180 /* Pods-YungCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5FD4D436D1EF9F0E49CA39435CF0ADD /* Pods-YungCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YungCache_Example-dummy.m"; sourceTree = "<group>"; };
-		E903A7C4A9C0EE659D117F92720FC514 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = YungCache/Classes/Container.swift; sourceTree = "<group>"; };
-		E94E88B6243310CAC7A4888050B7BF43 /* MemoryCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryCache.swift; path = YungCache/Classes/MemoryCache.swift; sourceTree = "<group>"; };
-		EED7D1547CA4867E596B766745D2597E /* YungCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YungCache.modulemap; sourceTree = "<group>"; };
-		F2874D117AAC3CFFF6266545FF1EE8FF /* YungCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungCache-prefix.pch"; sourceTree = "<group>"; };
+		F3D23731D534FAF411E3A9F59EF552B0 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = YungCache/Classes/DiskCache.swift; sourceTree = "<group>"; };
 		F42077163C5F3CCF5A5CE469953B8F9E /* Pods-YungCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungCache_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F5DE053BEBAC46871501A6B26666FD96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FCECE80ECC870EBD47066B69F85327E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,15 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3F131752BEEAE1EDD5EC7DC0255127 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A81738BBE09F38B76131C7246A627EE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				121D4E9CD7903C2A1CD78E598B4CA526 /* Foundation.framework in Frameworks */,
+				F94B37C569F644C77FA7B5DC737397EA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +97,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7673AEFF01271C29AB4AEFD975112A76 /* Foundation.framework in Frameworks */,
+				BE97FE57CC7C4D2416AA1A915DCEB6B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C507A76A7F6506B96F1004036E77D933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CB39371FBEA2D62B858A17A853B8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +129,31 @@
 			path = "Target Support Files/Pods-YungCache_Example";
 			sourceTree = "<group>";
 		};
+		15B5B9BEB56E9A6C13A67971B06A799D /* YungCache */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDAE159A418FBCEC2DD124D44B82A5 /* Cache.swift */,
+				90536EF8A030DBE22CF53A05B10802E1 /* Cache+Yung.swift */,
+				C1E5C8818CF937CD1455950F998360CD /* Container.swift */,
+				F3D23731D534FAF411E3A9F59EF552B0 /* DiskCache.swift */,
+				E1CABD3FB904378CD52E652F87984EA6 /* MemoryCache.swift */,
+				E30C430799FA465FE870CEF1DA98CD59 /* Protocol.swift */,
+				0D7AA915807547F907C0F3901B1F289F /* String+Yung.swift */,
+				8841A01626AA5BCC373CE98BDC3FE0AA /* Pod */,
+				EE00768DCB168D01C01C4AB35BEC99DC /* Support Files */,
+			);
+			name = YungCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		6616CADE88460E39E90583749CEFCF37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,49 +163,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		93E205403279E33E9A4B0F83B0738C0E /* YungCache */ = {
+		8841A01626AA5BCC373CE98BDC3FE0AA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E903A7C4A9C0EE659D117F92720FC514 /* Container.swift */,
-				1873F3728A5D75840ABDF58EA79948A4 /* DiskCache.swift */,
-				E94E88B6243310CAC7A4888050B7BF43 /* MemoryCache.swift */,
-				B2515C15258A50A10008441E /* Cache.swift */,
-				3FA907092990CA02538927EFE73B573E /* Protocol.swift */,
-				D921383ED1D671359A983AB40F8A7437 /* Pod */,
-				C1842BDA0C5AAE89BED8FDDC7924338A /* Support Files */,
+				FCECE80ECC870EBD47066B69F85327E5 /* LICENSE */,
+				400C307128AF6725DEC8AA217B976A55 /* README.md */,
+				C67DE2E95D0B8F796C79161B91845C93 /* YungCache.podspec */,
 			);
-			name = YungCache;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C1842BDA0C5AAE89BED8FDDC7924338A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EED7D1547CA4867E596B766745D2597E /* YungCache.modulemap */,
-				94970426A680378991E47CFA6A140A44 /* YungCache-dummy.m */,
-				B67D52C2B3B844637454335C013AFA8E /* YungCache-Info.plist */,
-				F2874D117AAC3CFFF6266545FF1EE8FF /* YungCache-prefix.pch */,
-				41DE56D45C2518B80620ADACE977ABAB /* YungCache-umbrella.h */,
-				013AD0A4CD4507F72BD5651AFA5EA7F7 /* YungCache.debug.xcconfig */,
-				76076DA74634BE5092511878192FDE46 /* YungCache.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YungCache";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D4591A7B42C052834811D7A398A3B115 /* Development Pods */,
+				EDD79E8269D465DF2CE29A1DE06D3A72 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DC5ED4F83C93A11704D15BF6B76B8403 /* Products */,
 				6616CADE88460E39E90583749CEFCF37 /* Targets Support Files */,
@@ -202,27 +203,9 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D4591A7B42C052834811D7A398A3B115 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				93E205403279E33E9A4B0F83B0738C0E /* YungCache */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D921383ED1D671359A983AB40F8A7437 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F5DE053BEBAC46871501A6B26666FD96 /* LICENSE */,
-				AA5A923DFB1F4596F88E4AB2A60FD2B6 /* README.md */,
-				E0C00A1DFDB584F219563DF885C0A9BA /* YungCache.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		DC5ED4F83C93A11704D15BF6B76B8403 /* Products */ = {
@@ -233,6 +216,29 @@
 				268F2F37CEE3236C3127DB32F34618E8 /* YungCache.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD79E8269D465DF2CE29A1DE06D3A72 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B5B9BEB56E9A6C13A67971B06A799D /* YungCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE00768DCB168D01C01C4AB35BEC99DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC452302DA3EABAFCD8E3A72BEB2271B /* YungCache.modulemap */,
+				5074CFE0757BCD5988B0F8BA1E74B284 /* YungCache-dummy.m */,
+				81DDA14F3D19EE59594ECFB4C76AC5A6 /* YungCache-Info.plist */,
+				9A9A506B814D67E3B6D1B76946D34B2A /* YungCache-prefix.pch */,
+				DF982B0AA3D56EA55EF8BB9BEBD4785A /* YungCache-umbrella.h */,
+				A4FE08BCE99BEFA694548FE5FB226112 /* YungCache.debug.xcconfig */,
+				7470EF9E0F090672A758B086F3341A6A /* YungCache.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YungCache";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +260,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6FA85A46A980D94CF547547A093F8B8 /* Headers */ = {
+		A9450BC866183067F42DAA43B9960104 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B12D1622648EE8DA274FD689CDC8C1 /* YungCache-umbrella.h in Headers */,
+				EE8F71303296F93FA4F82EC499BB1C9D /* YungCache-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +273,12 @@
 /* Begin PBXNativeTarget section */
 		017D518B939E924400FB0D2477F5CD89 /* YungCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3BACCCB59AA279C7B16356248E42416 /* Build configuration list for PBXNativeTarget "YungCache" */;
+			buildConfigurationList = 9C4D958F8A89813F2AA6B8B820395D1B /* Build configuration list for PBXNativeTarget "YungCache" */;
 			buildPhases = (
-				D6FA85A46A980D94CF547547A093F8B8 /* Headers */,
-				FCEBAEEF17F6F3584C164218040E00DB /* Sources */,
-				A81738BBE09F38B76131C7246A627EE3 /* Frameworks */,
-				8C54F079CB0936E595B16860F4886D07 /* Resources */,
+				A9450BC866183067F42DAA43B9960104 /* Headers */,
+				714AEAB273CF8C7EA756BCEC6B76E07D /* Sources */,
+				C507A76A7F6506B96F1004036E77D933 /* Frameworks */,
+				20A092D469780C4EEB3014AB838D8C73 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,7 +301,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6A830E9A0466D12FE75EB67E18459F01 /* PBXTargetDependency */,
+				A45F4B764C1AE05B2C99E721CE86F6A3 /* PBXTargetDependency */,
 			);
 			name = "Pods-YungCache_Tests";
 			productName = "Pods-YungCache_Tests";
@@ -314,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3407609CD00B78F76F45B104848E278E /* PBXTargetDependency */,
+				6AD071B679E7906F43BA7751DBF2A8CE /* PBXTargetDependency */,
 			);
 			name = "Pods-YungCache_Example";
 			productName = "Pods-YungCache_Example";
@@ -329,11 +335,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					41E9E5EF50779BBD05A13FA66EB906A6 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -363,7 +364,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C54F079CB0936E595B16860F4886D07 /* Resources */ = {
+		20A092D469780C4EEB3014AB838D8C73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,251 +389,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		714AEAB273CF8C7EA756BCEC6B76E07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D46E9ABD5AF85DE98D7F1702EC4E0E /* Cache+Yung.swift in Sources */,
+				D943F8ADA88CE2FCB23D70051E002347 /* Cache.swift in Sources */,
+				B89F5C48535E59FCCC8CDB1384B84D6F /* Container.swift in Sources */,
+				87D1792982B331725A4AD3ABF6C0F1A5 /* DiskCache.swift in Sources */,
+				8BD5AAD7DFA58D2BE032AE357EF85A4B /* MemoryCache.swift in Sources */,
+				9B58E63AAFF77E465E11AE3CAD69F14D /* Protocol.swift in Sources */,
+				5B95DDE04132271EECEE6361034A7C58 /* String+Yung.swift in Sources */,
+				14B747A48C887EC58D2D4A419C16A65C /* YungCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98919854528F6A10EE61DC4E3407BC15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2515C16258A50A10008441E /* Cache.swift in Sources */,
 				C50BEC5B282C3950F4C40524AA514D9C /* Pods-YungCache_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCEBAEEF17F6F3584C164218040E00DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21620CAD4197B9EF15A4ED0F2166DE5A /* Container.swift in Sources */,
-				5E284651385238401968AE9D22352AFC /* DiskCache.swift in Sources */,
-				2E6CDD0FC88AA458640407F1AEBFC32A /* MemoryCache.swift in Sources */,
-				9F1DB61A37B1239265759A5028CD9B23 /* Protocol.swift in Sources */,
-				AAB7F31362AD9E67F0E0FBB00DA443D4 /* YungCache-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3407609CD00B78F76F45B104848E278E /* PBXTargetDependency */ = {
+		6AD071B679E7906F43BA7751DBF2A8CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YungCache;
 			target = 017D518B939E924400FB0D2477F5CD89 /* YungCache */;
-			targetProxy = F3A0C589339F2C4BB5C6A932F6C2F0DF /* PBXContainerItemProxy */;
+			targetProxy = 540AB543D4A28173E1E8CED5822238AF /* PBXContainerItemProxy */;
 		};
-		6A830E9A0466D12FE75EB67E18459F01 /* PBXTargetDependency */ = {
+		A45F4B764C1AE05B2C99E721CE86F6A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YungCache_Example";
 			target = 41E9E5EF50779BBD05A13FA66EB906A6 /* Pods-YungCache_Example */;
-			targetProxy = ACA0F339EB58A8F56F90F56A04FAF739 /* PBXContainerItemProxy */;
+			targetProxy = BC7100EC5F4D56E3C9B4742616E3569B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		152B1EF61A99F220A14E20DAEAF13856 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76076DA74634BE5092511878192FDE46 /* YungCache.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YungCache/YungCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YungCache/YungCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YungCache/YungCache.modulemap";
-				PRODUCT_MODULE_NAME = YungCache;
-				PRODUCT_NAME = YungCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F6CC003E9DBAA194E76FC8DABD81B34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42077163C5F3CCF5A5CE469953B8F9E /* Pods-YungCache_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		397562AC47110293863C36EE7F4125F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5DC24F3EA836BCE0F80CA8490215180 /* Pods-YungCache_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4378FE230B19719E35AA08E1906D4E49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86C63E9DA772E88A7A496A5327257811 /* Pods-YungCache_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47497C2C59B58FFB9D02525054BA6B19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE07843839DC7C8B3F4CD405DD0D98B /* Pods-YungCache_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C4824829169ABF6045B6B6C96099058 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 013AD0A4CD4507F72BD5651AFA5EA7F7 /* YungCache.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YungCache/YungCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YungCache/YungCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YungCache/YungCache.modulemap";
-				PRODUCT_MODULE_NAME = YungCache;
-				PRODUCT_NAME = YungCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -655,65 +457,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -752,14 +496,267 @@
 			};
 			name = Debug;
 		};
+		2ABBA7EC0758D493ABE99734FA361E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7470EF9E0F090672A758B086F3341A6A /* YungCache.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YungCache/YungCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YungCache/YungCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YungCache/YungCache.modulemap";
+				PRODUCT_MODULE_NAME = YungCache;
+				PRODUCT_NAME = YungCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A7F69F50AAD2D08D96B0CCD0E83654D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DC24F3EA836BCE0F80CA8490215180 /* Pods-YungCache_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		554EA942A4EF6918769BD8263380EBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE07843839DC7C8B3F4CD405DD0D98B /* Pods-YungCache_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DBB7B596152124EA14741BA2740A8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C63E9DA772E88A7A496A5327257811 /* Pods-YungCache_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Tests/Pods-YungCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C6A45EA5094A03B9CF84C29DB6B3720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42077163C5F3CCF5A5CE469953B8F9E /* Pods-YungCache_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungCache_Example/Pods-YungCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE74D52FB736856BC83B8D115D6DC43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FE08BCE99BEFA694548FE5FB226112 /* YungCache.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YungCache/YungCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YungCache/YungCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YungCache/YungCache.modulemap";
+				PRODUCT_MODULE_NAME = YungCache;
+				PRODUCT_NAME = YungCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		15E6FAE6204699E325C1AFD62BC2E20B /* Build configuration list for PBXNativeTarget "Pods-YungCache_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4378FE230B19719E35AA08E1906D4E49 /* Debug */,
-				47497C2C59B58FFB9D02525054BA6B19 /* Release */,
+				8DBB7B596152124EA14741BA2740A8D4 /* Debug */,
+				554EA942A4EF6918769BD8263380EBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -767,8 +764,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4D958F8A89813F2AA6B8B820395D1B /* Build configuration list for PBXNativeTarget "YungCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE74D52FB736856BC83B8D115D6DC43C /* Debug */,
+				2ABBA7EC0758D493ABE99734FA361E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -776,17 +782,8 @@
 		D9ECD0FC9A35F62D670E6F9C03A02606 /* Build configuration list for PBXNativeTarget "Pods-YungCache_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				397562AC47110293863C36EE7F4125F4 /* Debug */,
-				2F6CC003E9DBAA194E76FC8DABD81B34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3BACCCB59AA279C7B16356248E42416 /* Build configuration list for PBXNativeTarget "YungCache" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C4824829169ABF6045B6B6C96099058 /* Debug */,
-				152B1EF61A99F220A14E20DAEAF13856 /* Release */,
+				4A7F69F50AAD2D08D96B0CCD0E83654D /* Debug */,
+				9C6A45EA5094A03B9CF84C29DB6B3720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

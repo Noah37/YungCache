@@ -11,8 +11,8 @@ public class MemoryCache<ObjectType>:CacheProtocol {
     
     private let storage = NSCache<KeyType, Container<ObjectType>>()
     
-    public init(countLimit: Int? = nil, automaticallyRemoveAllObjects: Bool = false) {
-        storage.countLimit = countLimit ?? 0
+    public init(countLimit: Int, automaticallyRemoveAllObjects: Bool = false) {
+        storage.countLimit = countLimit
 
         if automaticallyRemoveAllObjects {
             let notificationCenter = NotificationCenter.default
@@ -25,6 +25,12 @@ public class MemoryCache<ObjectType>:CacheProtocol {
         let notifications = NotificationCenter.default
         notifications.removeObserver(self, name: UIApplication.didEnterBackgroundNotification, object: nil)
         notifications.removeObserver(self, name: UIApplication.didReceiveMemoryWarningNotification, object: nil)
+    }
+        
+    func contains(forKey key: NSString) -> Bool {
+        let container = storage.object(forKey: key)
+        let value = container.flatMap({ $0.value })
+        return value != nil
     }
     
     func object(forKey key: KeyType) -> ObjectType? {

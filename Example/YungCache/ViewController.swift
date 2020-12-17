@@ -7,8 +7,25 @@
 //
 
 import UIKit
+import YungCache
 
 class ViewController: UIViewController {
+    @IBOutlet weak var setButton: UIButton!
+    
+    @IBOutlet weak var getButton: UIButton!
+    
+    @IBAction func setAction(_ sender: Any) {
+        let model = YungModel(age: 10, name: "Yung")
+        cache.setObj(model, forKey: "YungModel")
+    }
+    
+    @IBAction func getAction(_ sender: Any) {
+        let obj:YungModel? = cache.getObj(forKey: "YungModel")
+        print("name: \(String(describing: obj?.name))\n")
+        print("age: \(String(describing: obj?.age))\n")
+    }
+    
+    let cache = Cache<Data>(path: "Example")
 
     override func viewDidLoad() {
         super.viewDidLoad()

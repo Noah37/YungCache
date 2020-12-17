@@ -7,10 +7,12 @@
 
 import Foundation
 
-protocol CacheProtocol {
+protocol CacheProtocol:class {
     
     associatedtype KeyType:AnyObject
     associatedtype ObjectType:Any
+    
+    func contains(forKey key:KeyType) -> Bool
     
     func object(forKey key: KeyType) -> ObjectType?
 
