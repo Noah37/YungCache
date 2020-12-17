@@ -17,12 +17,12 @@ YungCache is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YungCache'
+pod 'YungCache', :git => 'https://github.com/Noah37/YungCache.git'
 ```
 
 ## Author
 
-Noah, caonongyun@guazi.com
+Noah, 2252055382@qq.com
 
 ## License
 
