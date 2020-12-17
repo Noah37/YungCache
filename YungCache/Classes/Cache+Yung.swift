@@ -13,6 +13,12 @@ public extension Cache {
         let obj = NSKeyedUnarchiver.unarchiveObject(with: data)
         return obj as? T
     }
+    
+    func getObj<T>(forKey key: String) -> T? {
+        guard let data = object(forKey: key.OCString) as? Data else { return nil }
+        let obj = NSKeyedUnarchiver.unarchiveObject(with: data)
+        return obj as? T
+    }
 
     func setObj<T:NSCoding>(_ obj: T, forKey key: String) {
         let obj = NSKeyedArchiver.archivedData(withRootObject: obj)
