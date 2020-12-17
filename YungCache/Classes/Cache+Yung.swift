@@ -19,7 +19,17 @@ public extension Cache {
         setObject(obj as! ObjectType, forKey: key.OCString)
     }
     
+    func setObj<T>(_ obj: T, forKey key: String) {
+        let obj = NSKeyedArchiver.archivedData(withRootObject: obj)
+        setObject(obj as! ObjectType, forKey: key.OCString)
+    }
+    
     func setObjs<T:NSCoding>(_ objs: [T], forKey key: String) {
+        let obj = NSKeyedArchiver.archivedData(withRootObject: objs)
+        setObject(obj as! ObjectType, forKey: key.OCString)
+    }
+    
+    func setObjs<T:StringProtocol>(_ objs: [T], forKey key: String) {
         let obj = NSKeyedArchiver.archivedData(withRootObject: objs)
         setObject(obj as! ObjectType, forKey: key.OCString)
     }
